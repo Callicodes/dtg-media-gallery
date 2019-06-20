@@ -1,0 +1,107 @@
+:root {
+  --mainBlack: #1b191a;
+  --lightBlue: #1b191a;
+  --mainWhite: #f6f6f6;
+  --mainGrey: #575757;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Oswald", Lato, Arial, sans-serif !important;
+  color: var(--mainWhite) !important;
+  background: URL("https://live.dovetailgames.com/images/banner/franchise_banner_tsw_4k.png");
+}
+
+.text-title {
+  font-family: "Oswald";
+  letter-spacing: 0.3em;
+  font-weight: bold;
+}
+
+.background-grey {
+  color: var(--mainGrey);
+}
+
+.siteLogo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  width: 80;
+  height: 26px;
+  float: center;
+  margin-top: 10px;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.px-sm-5 {
+  background-color: #1b191a;
+  background-repeat: repeat-x;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#252324), to(#1b191a));
+  background: -webkit-linear-gradient(top, #1b191a, #252324);
+  background: -moz-linear-gradient(top, #1b191a, #252324);
+  background: -ms-linear-gradient(top, #1b191a, #252324);
+  background: -o-linear-gradient(top, #1b191a, #252324);
+  color: #d6d6d6;
+  height: 58px;
+  position: relative;
+  z-index: 500;
+  display: block;
+}
+
+div#navbarText {
+  margin-left: 9%;
+  margin-right: 9%;
+  font-weight: bold !important;
+}
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+
+#miniNavBar {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  width: 100%;
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.04) !important;
+  /* text-align: center; */
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 18px;
+  position: relative;
+  padding-left: 15%;
+  font-family: "Oswald";
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  margin-left: 50%;
+}
+
+iframe#widget2 {
+  margin-left: 1%;
+}
+
+.col-sm-6.col-md-4.mb-3 {
+  float: left;
+  margin-left: 10%;
+  padding-bottom: 50px;
+}
+#red {
+  background: black;
+  position: absolute;
+  bottom: -0%;
+
+  width: 100%;
+  height: 160px;
+  border-bottom: black;
+  font-size: 10px;
+  margin-top: 250px;
+}
